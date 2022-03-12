@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Qr-code Generator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <section class="heading">
+   <div class="title">QRcodes</div>
+   <div class="sub-title">Generate QRCode for anything!</div>
+  </section>
+  <section class="user-input">
+   <label for="input_text">Type something...</label>
+   <input type="text" name="input_text" id="input_text" autocomplete="off">
+   <button class="button" type="submit">Generate QR Code</button>
+  </section>
+  <div class="qr-code" style="display: none;"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+ </body>
+</html>
