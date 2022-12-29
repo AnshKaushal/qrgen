@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Qr-code Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://anshkaushal.github.io/images/pic01.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  <section class="heading">
+   <div class="title">Qr Code Generator</div>
+   <div class="sub-title">Generate QRCode for anything!</div>
+  </section>
+  <section class="user-input">
+   <label for="input_text">Enter text to encode:</label>
+   <input type="text" name="input_text" id="input_text" autocomplete="off">
+   <button class="button" type="submit">Generate QR Code</button>
+  </section>
+  <div class="qr-code" style="display: none;"></div>
+  <footer>
+    <p>Made with ❤️ by <a href="https://instagram.com/thelifeofdeveloper">Ansh Kaushal</a></p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+ </body>
+</html>
